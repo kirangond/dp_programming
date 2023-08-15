@@ -66,6 +66,13 @@ Date:   Tue Aug 15 13:20:09 2023 +0530
     first commit for the dp project
 
 
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/dp_programming (master)
+$ git commit -a -m 'modified the git commands file'
+[master 11d0fa6] modified the git commands file
+ 2 files changed, 2168 insertions(+), 2138 deletions(-)
+
+
+
 
 
 
