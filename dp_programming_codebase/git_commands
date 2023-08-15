@@ -52,6 +52,19 @@ $ git add dp_programming_codebase/git_commands
 
   - To add particular file for which we made changes
 
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/dp_programming (master)
+$ git commit -a -m 'first commit for the dp project'
+[master (root-commit) 9b608e7] first commit for the dp project
+ 63 files changed, 3678 insertions(+)
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/dp_programming (master)
+$ git log
+commit 9b608e710354342669ada011aeef153d0525d8a4 (HEAD -> master)
+Author: kirangond <kirangond05@gmail.com>
+Date:   Tue Aug 15 13:20:09 2023 +0530
+
+    first commit for the dp project
+
 
 
 
