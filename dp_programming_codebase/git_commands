@@ -1,0 +1,65 @@
+---Aug 15--- 
+Github and Git Version control
+Created the repo in github - dp_programming   (in lowercase, separated by _)
+
+created folder in c drive dp_programming - C:\dp_programming
+
+launched the eclipse with dp_programming folder  - It will create .metadata fodler in it 
+
+created a simple java project in eclipse - dp_programming_codebase   (lower case, separated bby _)
+
+package name - lower case, reversed manner com.example 
+
+intialize git in C:\dp_programming 
+  - open git bash from above path and it will create .git folder in it C:\dp_programming
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/dp_programming
+$ git init
+Initialized empty Git repository in C:/dp_programming/.git/
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/dp_programming (master)
+$
+
+$ git --version
+git version 2.34.1.windows.1
+
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .metadata/
+        dp_programming_codebase/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/dp_programming (master)
+$ git add .
+warning: LF will be replaced by CRLF in .metadata/.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.3.20211002-1029.xml.
+The file will have its original line endings in your working directory
+
+all files now added into the stage area
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/dp_programming (master)
+$ git add dp_programming_codebase/git_commands
+
+  - To add particular file for which we made changes
+
+
+
+
+
+
+
+
+
+
+
+
