@@ -8,7 +8,6 @@ public class Kanpsack1 {
 		System.out.println("Consists of dp programming codes: ");
 		System.out.println("push code to github repo: ");
 		System.out.println("created branch for the august release: ");
-		System.out.println("");
 
 	}
 
