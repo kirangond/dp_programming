@@ -11,7 +11,7 @@ public class EachOccurence {
         	int count = 1;
         	for(int j=i+1;j<arr.length;j++)
         	{
-        		if(i!=j && arr[i]==arr[j])
+        		if(arr[i]==arr[j])
         			count++;
         	}
         	System.out.println("count of element: " + arr[i] + " is " + count);
