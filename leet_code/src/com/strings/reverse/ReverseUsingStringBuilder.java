@@ -1,6 +1,6 @@
 package com.strings.reverse;
 
-public class Reverse {
+public class ReverseUsingStringBuilder {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
