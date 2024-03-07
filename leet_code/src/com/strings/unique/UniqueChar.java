@@ -6,28 +6,20 @@ public class UniqueChar {
 		// TODO Auto-generated method stub
 		
 		String s = "leetcode";
-		char[] charArray = s.toCharArray();
+//		char[] charArray = s.toCharArray();
 		
 //		for(int i=0;i<charArray.length;i++)
 //		{
 //			System.out.println(charArray[i]);
 //		}
 		
-		int index = 0;
-		for(int i=0;i<charArray.length;i++)
-		{
-			for(int j=i+1;j<charArray.length;j++)
-			{
-				if(charArray[i]!=charArray[j])
-				{
-					index = i;
-					
-				}
-				break;
-			}
-		}
+	for(int i=0;i<s.length();i++)
+	{
+		char c = s.charAt(i);
+		System.out.println(c);
+	}
 		
-		System.out.println("index: " + index);
+		
 
 	}
 
