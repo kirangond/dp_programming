@@ -34,7 +34,7 @@ public class BadVersion {
 
     public static void main(String[] args) {
     	BadVersion solution = new BadVersion();
-        
+        													
         // Example 1
         int n1 = 5;
         int bad1 = 4;
