@@ -1,5 +1,7 @@
 package com.strings.reverse;
 
+import java.util.Arrays;
+
 public class ReverseArray {
 
 	public static void main(String[] args) {
@@ -26,10 +28,11 @@ public class ReverseArray {
 			j--;
 		}
 		
-		for(int k=0;k<array.length;k++)
-		{
-			System.out.print(array[k]);
-		}
+		System.out.println(Arrays.toString(array));
+//		for(int k=0;k<array.length;k++)
+//		{
+//			System.out.print(array[k]);
+//		}
 	}
 
 }
