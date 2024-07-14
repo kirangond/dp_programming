@@ -3,7 +3,7 @@ package com.array.duplicate.sorted;
 public class Solution1 {
 	
 	public static void main(String[] args) {
-		int[] nums = {1, 1,2,3,3};
+		int[] nums = {1, 1,2};
         int length = removeDuplicates(nums);
 
         System.out.print("Output: " + length );
@@ -12,6 +12,7 @@ public class Solution1 {
 	private static int removeDuplicates(int[] nums) {
 		// TODO Auto-generated method stub
 		int k = 1;
+		System.out.println(nums.length);
 		if(nums.length==0)
 		{
 			return 0;
@@ -21,7 +22,8 @@ public class Solution1 {
 		{
 		if(nums[i]!=nums[i-1])
 		{
-			k++;
+//			k++;
+			  nums[k++] = nums[i];
 		}
 		}
 		return k;
