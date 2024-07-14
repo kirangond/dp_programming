@@ -10,7 +10,8 @@ class Solution {
 
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] != nums[i - 1]) {
-                nums[k++] = nums[i]; // Update the next unique element
+               nums[k++] = nums[i]; // Update the next unique element
+            
             }
         }
 
@@ -20,7 +21,7 @@ class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        int[] nums = {1, 1, 2};
+        int[] nums = {1, 1, 2,2,4};
         int length = solution.removeDuplicates(nums);
 
         System.out.print("Output: " + length + ", nums = [");
